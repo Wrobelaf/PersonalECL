@@ -1,0 +1,4 @@
+Person := ENTITY( FLAT(UID=id,fname,mname,lname,address1,address2,city,state) );
+USE KEL_tutorial.File_Person.Small.File( FLAT, Person );
+
+QUERY: ShowAll <= Person;
